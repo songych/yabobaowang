@@ -564,3 +564,299 @@ body {
     width: getRem(190);
     height: getRem(411);
 }
+
+.selected {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: getRem(1520);
+    margin: 0 auto;
+    margin-top: getRem(200);
+}
+
+.selected .hd {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    overflow: hidden;
+    line-height: getRem(56);
+    color: #333333;
+    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+    font-size: getRem(40);
+    font-weight: 500;
+}
+
+.selected .bd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: getRem(6);
+    width: 100%;
+}
+
+.selected .article {
+    opacity: 1;
+    width: getRem(896);
+    height: getRem(74);
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: getRem(37);
+    color: #333333;
+    font-family: FZLTXHK--GBK1-0, Lantinghei SC;
+    font-size: getRem(18);
+    font-weight: 300;
+}
+
+.selected .nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: getRem(80);
+    height: getRem(44);
+    border-bottom: 1px solid #D8D8D8;
+}
+.selected .nav .nav-item{
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+    &.active{
+        border-bottom: 2px solid #E0C9B2;
+        color: #E0C9B2;
+    }
+}
+
+.selected .sportsEvents {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    opacity: 1;
+    // width: getRem(429);
+    height: getRem(28);
+    line-height: getRem(28);
+    color: #e0c9b2;
+    font-size: getRem(20);
+    font-weight: 400;
+}
+
+.selected .liveEntertainment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    margin-left: getRem(90);
+    width: getRem(72);
+    height: getRem(25);
+    line-height: getRem(25);
+    color: #999999;
+    font-size: getRem(18);
+    font-weight: 400;
+}
+
+.selected .eSports {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    margin-left: getRem(94);
+    width: getRem(72);
+    height: getRem(25);
+    line-height: getRem(25);
+    color: #999999;
+    font-size: getRem(18);
+    font-weight: 400;
+}
+
+.selected .chessCardGames {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    margin-left: getRem(93);
+    width: getRem(72);
+    height: getRem(25);
+    line-height: getRem(25);
+    color: #999999;
+    font-size: getRem(18);
+    font-weight: 400;
+}
+
+.selected .lotteryBetting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    margin-left: getRem(94);
+    width: getRem(72);
+    height: getRem(25);
+    line-height: getRem(25);
+    color: #999999;
+    font-size: getRem(18);
+    font-weight: 400;
+}
+
+.selected .electronicEntertainment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    margin-left: getRem(94);
+    max-width: getRem(381);
+    height: getRem(25);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: getRem(25);
+    color: #999999;
+    font-size: getRem(18);
+    font-weight: 400;
+}
+
+.selected .main {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: getRem(56);
+    width: 100%;
+    height: getRem(700);
+}
+
+.selected .layerWrap {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: getRem(84);
+    width: getRem(1520);
+    height: getRem(700);
+}
+
+.selected .layer {
+    position: relative;
+    width: getRem(1520);
+    height: getRem(700);
+}
+
+.selected .sportsEvents_2 {
+    position: absolute;
+    top: getRem(252);
+    left: getRem(82);
+    opacity: 1;
+    line-height: getRem(70);
+    color: #ffffff;
+    font-size: getRem(50);
+    font-weight: 400;
+}
+
+.selected .wrap {
+    display: flex;
+    position: absolute;
+    top: getRem(329);
+    left: getRem(0);
+    flex-direction: row;
+    width: getRem(1519);
+    height: getRem(40);
+}
+
+.selected .desc {
+    opacity: 1;
+    margin-left: getRem(82);
+    line-height: getRem(40);
+    color: #ffffff;
+    font-size: getRem(20);
+    font-weight: 400;
+}
+
+.selected .num {
+    opacity: 1;
+    line-height: getRem(40);
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: getRem(20);
+    font-weight: normal;
+}
+
+.selected .sports {
+    opacity: 1;
+    line-height: getRem(40);
+    color: #ffffff;
+    font-size: getRem(20);
+    font-weight: 400;
+}
+
+.selected .text {
+    opacity: 1;
+    line-height: getRem(40);
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: getRem(20);
+    font-weight: normal;
+}
+
+.selected .info {
+    opacity: 1;
+    line-height: getRem(40);
+    color: #ffffff;
+    font-size: getRem(20);
+    font-weight: 400;
+}
+
+.selected .article_2 {
+    position: absolute;
+    bottom: getRem(291);
+    left: getRem(82);
+    opacity: 1;
+    line-height: getRem(40);
+    color: #ffffff;
+    font-size: getRem(20);
+    font-weight: 400;
+}
+
+.selected .block {
+    display: flex;
+    position: absolute;
+    bottom: getRem(126);
+    left: getRem(0);
+    flex-direction: row;
+    width: getRem(1519);
+    height: getRem(52);
+}
+
+.selected .actionBg {
+    margin-left: getRem(82);
+    width: getRem(231);
+    height: getRem(50);
+}
+
+.selected .color {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-left: getRem(43);
+    background-color: #ffffff;
+    width: getRem(46);
+    height: getRem(52);
+}
+
+.selected .banner {
+    position: absolute;
+    top: getRem(0);
+    left: getRem(740);
+    width: getRem(723);
+    height: getRem(784);
+}
+
+.selected .sportsEvents_3 {
+    position: absolute;
+    top: getRem(174);
+    left: getRem(0);
+    opacity: 1;
+    line-height: getRem(108);
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: getRem(90);
+    font-weight: normal;
+}
