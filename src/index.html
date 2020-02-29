@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <script src="main.js"></script>
+  <script src="js/rem.js"></script>
   <div class="banner">
     <div class="layerWrap">
       <video class="video" autoplay loop muted>
@@ -20,12 +20,12 @@
         src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/72b209d05a9c11eaa4017bf293c9ac20.png"
         data-src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/72b209d05a9c11eaa4017bf293c9ac20.png"
         alt="layer" /> -->
-      <div class="nav-outer">
+      <div class="nav-outer" id="nav-outer">
         <div class="nav">
-          <span class="homePage active">
+          <span class="homePage active" data-hash="home">
             首页
           </span>
-          <span class="productAdvantages">
+          <span class="productAdvantages" data-hash="advantage">
             产品优势
           </span>
           <span class="technicalAdvantages">
@@ -34,9 +34,8 @@
           <span class="serviceAdvantages">
             服务优势
           </span>
-          <img class="logo"
-            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/732e3eb05a9c11ea9cd5fda2e496b01a.png"
-            data-src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/732e3eb05a9c11ea9cd5fda2e496b01a.png"
+          <img class="logo" id="nav-logo"
+            src="./images/bw_logo_white.svg"
             alt="logo" />
           <span class="brandStrength">
             品牌实力
@@ -70,7 +69,7 @@
         alt="collapseIcon" />
     </div>
   </div>
-  <div class="advantage">
+  <div class="advantage" id="advantage">
     <div class="hd">
       <img class="logo"
         src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/6c8a78305aa111eab3095baa33faa9d4.png"
@@ -342,6 +341,9 @@
       自研支付系统，官方支付高效、快捷、安全，集千家支付渠道，全自动出入款，全自动上下分。行业首创的技术+财务服务，技术实力引领行业，财务服务助力薄发，为您的资金保驾护航。
     </div>
   </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/retina.min.js"></script>
 </body>
 
 </html>

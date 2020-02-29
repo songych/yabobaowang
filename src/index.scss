@@ -6,6 +6,7 @@ html,
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .banner {
@@ -43,6 +44,20 @@ body {
     justify-content: center;
     width: 100%;
     height: getRem(84);
+    &.fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background-color: white;
+        .nav span{
+            color: #333333;
+            &.active{
+                color: #E0C9B2;
+                border-bottom: 2px solid #E0C9B2;
+            }
+        }
+    }
 }
 
 .banner .nav-outer .nav{
