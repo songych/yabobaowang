@@ -719,7 +719,7 @@ body {
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: getRem(56);
+    margin-top: getRem(124);
     width: 100%;
     height: getRem(700);
 }
@@ -734,10 +734,20 @@ body {
     height: getRem(700);
 }
 
-.selected .layer {
-    position: relative;
-    width: getRem(1520);
-    height: getRem(700);
+.selected .main .back{
+    width: 100%;
+    height: 100%;;
+}
+.selected .main .detail{
+    font-family: PingFangSC-Regular;
+    font-size: getRem(20);
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: getRem(40);
+    position: absolute;
+    top: getRem(329);
+    left: getRem(82);
+    width: getRem(555);
 }
 
 .selected .sportsEvents_2 {
@@ -751,58 +761,58 @@ body {
     font-weight: 400;
 }
 
-.selected .wrap {
-    display: flex;
-    position: absolute;
-    top: getRem(329);
-    left: getRem(0);
-    flex-direction: row;
-    width: getRem(1519);
-    height: getRem(40);
-}
+// .selected .wrap {
+//     display: flex;
+//     position: absolute;
+//     top: getRem(329);
+//     left: getRem(0);
+//     flex-direction: row;
+//     width: getRem(1519);
+//     height: getRem(40);
+// }
 
-.selected .desc {
-    opacity: 1;
-    margin-left: getRem(82);
-    line-height: getRem(40);
-    color: #ffffff;
-    font-size: getRem(20);
-    font-weight: 400;
-}
+// .selected .desc {
+//     opacity: 1;
+//     margin-left: getRem(82);
+//     line-height: getRem(40);
+//     color: #ffffff;
+//     font-size: getRem(20);
+//     font-weight: 400;
+// }
 
-.selected .num {
-    opacity: 1;
-    line-height: getRem(40);
-    color: #ffffff;
-    font-family: Helvetica;
-    font-size: getRem(20);
-    font-weight: normal;
-}
+// .selected .num {
+//     opacity: 1;
+//     line-height: getRem(40);
+//     color: #ffffff;
+//     font-family: Helvetica;
+//     font-size: getRem(20);
+//     font-weight: normal;
+// }
 
-.selected .sports {
-    opacity: 1;
-    line-height: getRem(40);
-    color: #ffffff;
-    font-size: getRem(20);
-    font-weight: 400;
-}
+// .selected .sports {
+//     opacity: 1;
+//     line-height: getRem(40);
+//     color: #ffffff;
+//     font-size: getRem(20);
+//     font-weight: 400;
+// }
 
-.selected .text {
-    opacity: 1;
-    line-height: getRem(40);
-    color: #ffffff;
-    font-family: Helvetica;
-    font-size: getRem(20);
-    font-weight: normal;
-}
+// .selected .text {
+//     opacity: 1;
+//     line-height: getRem(40);
+//     color: #ffffff;
+//     font-family: Helvetica;
+//     font-size: getRem(20);
+//     font-weight: normal;
+// }
 
-.selected .info {
-    opacity: 1;
-    line-height: getRem(40);
-    color: #ffffff;
-    font-size: getRem(20);
-    font-weight: 400;
-}
+// .selected .info {
+//     opacity: 1;
+//     line-height: getRem(40);
+//     color: #ffffff;
+//     font-size: getRem(20);
+//     font-weight: 400;
+// }
 
 .selected .article_2 {
     position: absolute;
@@ -824,35 +834,36 @@ body {
     width: getRem(1519);
     height: getRem(52);
 }
-
-.selected .actionBg {
-    margin-left: getRem(82);
-    width: getRem(231);
-    height: getRem(50);
-}
-
-.selected .color {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    margin-left: getRem(43);
-    background-color: #ffffff;
-    width: getRem(46);
-    height: getRem(52);
-}
-
-.selected .banner {
+.selected .logo-wrap{
     position: absolute;
-    top: getRem(0);
-    left: getRem(740);
+    left: getRem(82);
+    bottom: getRem(127);
+    height: getRem(50);
+    display: flex;
+}
+.selected .logo1{
+    height: 100%;
+    width: auto;
+}
+
+.selected .logo2{
+    width: auto;
+    height: 100%;
+    margin-left: getRem(43);
+}
+
+.selected .profile{
+    position: absolute;
+    bottom: getRem(0);
+    right: getRem(101);
     width: getRem(723);
     height: getRem(784);
 }
 
 .selected .sportsEvents_3 {
     position: absolute;
-    top: getRem(174);
-    left: getRem(0);
+    top: getRem(90);
+    left: getRem(80);
     opacity: 1;
     line-height: getRem(108);
     color: #ffffff;

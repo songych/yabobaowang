@@ -963,7 +963,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 0.58333rem;
+  margin-top: 1.29167rem;
   width: 100%;
   height: 7.29167rem;
 }
@@ -985,10 +985,21 @@ body {
   height: 7.29167rem;
 }
 
-.selected .layer {
-  position: relative;
-  width: 15.83333rem;
-  height: 7.29167rem;
+.selected .main .back {
+  width: 100%;
+  height: 100%;
+}
+
+.selected .main .detail {
+  font-family: PingFangSC-Regular;
+  font-size: 0.20833rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 0.41667rem;
+  position: absolute;
+  top: 3.42708rem;
+  left: 0.85417rem;
+  width: 5.78125rem;
 }
 
 .selected .sportsEvents_2 {
@@ -999,64 +1010,6 @@ body {
   line-height: 0.72917rem;
   color: #ffffff;
   font-size: 0.52083rem;
-  font-weight: 400;
-}
-
-.selected .wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 3.42708rem;
-  left: 0rem;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 15.82292rem;
-  height: 0.41667rem;
-}
-
-.selected .desc {
-  opacity: 1;
-  margin-left: 0.85417rem;
-  line-height: 0.41667rem;
-  color: #ffffff;
-  font-size: 0.20833rem;
-  font-weight: 400;
-}
-
-.selected .num {
-  opacity: 1;
-  line-height: 0.41667rem;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 0.20833rem;
-  font-weight: normal;
-}
-
-.selected .sports {
-  opacity: 1;
-  line-height: 0.41667rem;
-  color: #ffffff;
-  font-size: 0.20833rem;
-  font-weight: 400;
-}
-
-.selected .text {
-  opacity: 1;
-  line-height: 0.41667rem;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-size: 0.20833rem;
-  font-weight: normal;
-}
-
-.selected .info {
-  opacity: 1;
-  line-height: 0.41667rem;
-  color: #ffffff;
-  font-size: 0.20833rem;
   font-weight: 400;
 }
 
@@ -1086,41 +1039,39 @@ body {
   height: 0.54167rem;
 }
 
-.selected .actionBg {
-  margin-left: 0.85417rem;
-  width: 2.40625rem;
+.selected .logo-wrap {
+  position: absolute;
+  left: 0.85417rem;
+  bottom: 1.32292rem;
   height: 0.52083rem;
-}
-
-.selected .color {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 0.44792rem;
-  background-color: #ffffff;
-  width: 0.47917rem;
-  height: 0.54167rem;
 }
 
-.selected .banner {
+.selected .logo1 {
+  height: 100%;
+  width: auto;
+}
+
+.selected .logo2 {
+  width: auto;
+  height: 100%;
+  margin-left: 0.44792rem;
+}
+
+.selected .profile {
   position: absolute;
-  top: 0rem;
-  left: 7.70833rem;
+  bottom: 0rem;
+  right: 1.05208rem;
   width: 7.53125rem;
   height: 8.16667rem;
 }
 
 .selected .sportsEvents_3 {
   position: absolute;
-  top: 1.8125rem;
-  left: 0rem;
+  top: 0.9375rem;
+  left: 0.83333rem;
   opacity: 1;
   line-height: 1.125rem;
   color: #ffffff;
