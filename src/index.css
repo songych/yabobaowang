@@ -804,7 +804,7 @@ body {
           justify-content: center;
   margin-top: 0.83333rem;
   height: 0.45833rem;
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 0.01042rem solid #D8D8D8;
 }
 
 .selected .nav .nav-item {
@@ -815,7 +815,7 @@ body {
 }
 
 .selected .nav .nav-item.active {
-  border-bottom: 2px solid #E0C9B2;
+  border-bottom: 0.02083rem solid #E0C9B2;
   color: #E0C9B2;
 }
 
@@ -1078,5 +1078,295 @@ body {
   font-family: Helvetica;
   font-size: 0.9375rem;
   font-weight: normal;
+}
+
+.creative {
+  width: 100%;
+  height: 10.41667rem;
+  position: relative;
+  margin-top: 2.08333rem;
+}
+
+.creative img {
+  width: 100%;
+  height: 100%;
+}
+
+.creative .p1 {
+  position: absolute;
+  left: 3.125rem;
+  top: 3.125rem;
+  font-family: FZLTZHK--GBK1-0;
+  font-size: 0.41667rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.creative .p2 {
+  position: absolute;
+  width: 4.27083rem;
+  left: 3.125rem;
+  top: 3.88542rem;
+  font-family: FZLTXHK--GBK1-0;
+  font-size: 0.1875rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 0.41667rem;
+  margin-top: 0.17708rem;
+}
+
+.pays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20rem;
+  height: 10.41667rem;
+}
+
+.pays .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20rem;
+  height: 10.41667rem;
+}
+
+.pays .layer {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 20rem;
+  height: 10.41667rem;
+}
+
+.pays .primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2.04167rem;
+  width: 12.39583rem;
+  height: 6.04167rem;
+}
+
+.pays .outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 1.20833rem;
+}
+
+.pays .actionBg {
+  margin-left: 1.28125rem;
+  width: 2.80208rem;
+  height: 0.66667rem;
+}
+
+.pays .pic {
+  margin-left: 1.19792rem;
+  width: 1.20833rem;
+  height: 1.20833rem;
+}
+
+.pays .shopLogo {
+  margin-left: 1.875rem;
+  width: 1.25rem;
+  height: 0.67708rem;
+}
+
+.pays .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.66667rem;
+  height: 1.4375rem;
+}
+
+.pays .buttonBg {
+  width: 1.66667rem;
+  height: 0.52083rem;
+}
+
+.pays .img {
+  margin-left: 0.85417rem;
+  width: 1.25rem;
+  height: 1.17708rem;
+}
+
+.pays .smallItem {
+  margin-left: 1.3125rem;
+  width: 1.5625rem;
+  height: 1.4375rem;
+}
+
+.pays .smallPic {
+  margin-left: 1.32292rem;
+  width: 1.04167rem;
+  height: 1.04167rem;
+}
+
+.pays .actionBg_2 {
+  margin-left: 1.34375rem;
+  width: 2.04167rem;
+  height: 0.39583rem;
+}
+
+.pays .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.39583rem;
+  height: 0.84375rem;
+}
+
+.pays .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 0.11458rem;
+  width: 4.84375rem;
+  height: 0.72917rem;
+}
+
+.pays .shopLogo_2 {
+  width: 1.32292rem;
+  height: 0.72917rem;
+}
+
+.pays .buttonBg_2 {
+  margin-left: 1.42708rem;
+  width: 1.72917rem;
+  height: 0.52083rem;
+}
+
+.pays .logo {
+  margin-left: 1.53125rem;
+  width: 1.625rem;
+  height: 0.55208rem;
+}
+
+.pays .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.53125rem;
+  height: 0.95833rem;
+}
+
+.pays .actionBg_3 {
+  margin-left: 2.07292rem;
+  width: 1.95833rem;
+  height: 0.52083rem;
+}
+
+.pays .logo_2 {
+  margin-top: 0.11458rem;
+  margin-left: 1.11458rem;
+  width: 1.35417rem;
+  height: 0.84375rem;
+}
+
+.pays .buttonBg_3 {
+  margin-top: -getRem(32);
+  margin-left: 0.88542rem;
+  width: 2.14583rem;
+  height: 0.47917rem;
+}
+
+.administrator {
+  width: 100%;
+  height: 10.41667rem;
+  position: relative;
+}
+
+.administrator img {
+  width: 100%;
+  height: 100%;
+}
+
+.administrator .p1 {
+  position: absolute;
+  left: 3.125rem;
+  top: 3.125rem;
+  font-family: FZLTZHK--GBK1-0;
+  font-size: 0.41667rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.administrator .p2 {
+  position: absolute;
+  width: 4.27083rem;
+  left: 3.125rem;
+  top: 3.88542rem;
+  font-family: FZLTXHK--GBK1-0;
+  font-size: 0.1875rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 0.41667rem;
+  margin-top: 0.17708rem;
 }
 /*# sourceMappingURL=index.css.map */
