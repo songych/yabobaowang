@@ -14,7 +14,7 @@ body {
     flex-direction: row;
     background-color: #d8d8d8;
     width: 100%;
-    height: 52.1vw;
+    height: getRem(1000);
     overflow: hidden;
 }
 
@@ -27,13 +27,13 @@ body {
     height: 100%;
 }
 
-.banner .layer {
+.banner .video{
     position: relative;
     width: 100%;
-    height: 100%;
+    // height: 100%;
 }
 
-.banner .container {
+.banner .nav-outer{
     display: flex;
     position: absolute;
     top: getRem(20);
@@ -42,143 +42,47 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: getRem(44);
+    height: getRem(84);
 }
 
-.banner .outer {
+.banner .nav-outer .nav{
+    width: getRem(1280);
+    max-width: 1280px;
+    min-width: 1200px;
+    height: 100%;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    height: getRem(44);
-}
-
-.banner .wrap {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-content: space-between;
-    width: getRem(486);
-    height: getRem(26);
-}
-
-.banner .homePage {
-    opacity: 1;
-    width: getRem(36);
-    height: getRem(25);
-    line-height: getRem(25);
-    color: #ffffff;
-    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
-    font-size: getRem(18);
-    font-weight: 500;
-}
-
-.banner .productAdvantages {
-    opacity: 0.7;
-    margin-top: getRem(4);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .technicalAdvantages {
-    opacity: 0.7;
-    margin-top: getRem(4);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .serviceAdvantages {
-    opacity: 0.7;
-    margin-top: getRem(4);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .color {
-    display: flex;
-    margin-top: getRem(4);
-    border-radius: getRem(1);
-    background-color: #ffffff;
-    width: getRem(32);
-    height: getRem(2);
+    align-items: center;
+    span{
+        cursor: pointer;
+        opacity: 0.7;
+        font-family: Helvetica;
+        font-size: getRem(16);
+        color: #FFFFFF;
+        letter-spacing: 0;
+        display: inline-block;
+        height: getRem(35);
+        line-height: getRem(35);
+        &.active{
+            font-family: FZLTZHK--GBK1-0;
+            font-size: getRem(18);
+            color: #FFFFFF;
+            letter-spacing: 0;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+    }
 }
 
 .banner .logo {
-    margin-left: getRem(100);
+    // margin-left: getRem(100);
     width: getRem(110);
     height: getRem(44);
 }
 
-.banner .brandStrength {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: getRem(100);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .successStories {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: getRem(77);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .businessProcess {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: getRem(76);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
-
-.banner .contactUs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 0.7;
-    margin-left: getRem(77);
-    width: getRem(64);
-    height: getRem(22);
-    line-height: getRem(22);
-    color: #ffffff;
-    font-size: getRem(16);
-    font-weight: 400;
-}
 .banner .slogan{
     position: absolute;
-    top: 21.9vw;
+    top: getRem(405);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -239,7 +143,7 @@ body {
     position: relative;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 7.3vw;
+    margin-top: getRem(140);
     width: 100%;
     height: getRem(367);
 }
@@ -284,9 +188,8 @@ body {
     box-sizing: border-box;
     position: relative;
     margin: 0 auto;
-    /* margin-top: 6.2vw; */
-    margin-top: calc(60vw / 19.2);
-    width: 78vw;
+    margin-top: getRem(60);
+    width: getRem(1498);
     overflow: hidden;
 }
 
@@ -295,24 +198,20 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
-    height: calc(225vw/ 19.2);
-    /* height: getRem(206); */
+    width: getRem(300);
+    height: getRem(225);
 }
 
 .advantage .entryPic {
     filter: blur(getRem(20));
     margin-top: getRem(13);
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
+    width: getRem(300);
     height: auto;
 }
 
 .advantage .info {
     opacity: 1;
-    /* margin-top: getRem(19); */
-    margin-top: calc(29vw / 19.2);
+    margin-top: getRem(29); 
     max-width: getRem(200);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -328,23 +227,19 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin-left: getRem(79); */
-    /* height: getRem(206); */
-    height: calc(225vw/ 19.2);
+    height: getRem(225); 
 }
 
 .advantage .entryPic_2 {
     filter: blur(getRem(20));
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
+    width: getRem(300); 
     height: auto;
 }
 
 .advantage .info_2 {
     opacity: 1;
-    /* margin-top: getRem(19); */
-    margin-top: calc(29vw / 19.2);
-    /* margin-left: getRem(95); */
+    margin-top: getRem(29);
+    margin-left: getRem(95); 
     max-width: getRem(193);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -360,25 +255,20 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin-left: getRem(77); */
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
-    /* height: getRem(206); */
-    height: calc(225vw/ 19.2);
+    width: getRem(300); 
+    height: getRem(225); 
 }
 
 .advantage .entryPic_3 {
     filter: blur(getRem(20));
     margin-top: getRem(2);
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
+    width: getRem(300); 
     height: auto;
 }
 
 .advantage .info_3 {
     opacity: 1;
-    /* margin-top: getRem(19); */
-    margin-top: calc(29vw / 19.2);
+    margin-top: getRem(29);
     max-width: getRem(212);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -394,25 +284,20 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin-left: getRem(92); */
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
-    /* height: getRem(206); */
-    height: calc(225vw/ 19.2);
+    width: getRem(300); 
+    height: getRem(225); 
 }
 
 .advantage .entryPic_4 {
     filter: blur(getRem(20));
     margin-top: getRem(12);
-    /* width: getRem(300); */
-    width: calc(300vw / 19.2);
+    width: getRem(300); 
     height: auto;
 }
 
 .advantage .info_4 {
     opacity: 1;
-    /* margin-top: getRem(19); */
-    margin-top: calc(29vw / 19.2);
+    margin-top: getRem(29); 
     max-width: getRem(226);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -465,13 +350,10 @@ body {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
-    // width: calc(1501vw / 19.2);
-    /* height: getRem(530); */
+    height: getRem(530); 
     width: getRem(1501);
-    height: calc(530vw / 19.2);
     margin: 0 auto;
     margin-top: getRem(200);
-    // margin-top: calc(200vw / 19.2);
 }
 
 .experience .primary {
@@ -516,9 +398,7 @@ body {
     flex-direction: row;
     justify-content: center;
     width: getRem(914);
-    // width: calc(914vw / 19.2);
     height: getRem(530);
-    // height: calc(530vw / 19.2);
 }
 
 .experience .laptop .back{
@@ -534,9 +414,7 @@ body {
     top: getRem(50);
     right: getRem(105);
     width: getRem(712);
-    // width: calc(712vw / 91.2);
     height: getRem(440);
-    // height: calc(460vw / 91.2);
 }
 
 .experience .phone{
