@@ -48,8 +48,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 20px;
-  left: 0px;
+  top: 0.20833rem;
+  left: 0rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -61,7 +61,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 44px;
+  height: 0.45833rem;
 }
 
 .banner .outer {
@@ -78,7 +78,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 44px;
+  height: 0.45833rem;
 }
 
 .banner .wrap {
@@ -95,51 +95,51 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 486px;
-  height: 26px;
+  width: 5.0625rem;
+  height: 0.27083rem;
 }
 
 .banner .homePage {
   opacity: 1;
-  width: 36px;
-  height: 25px;
-  line-height: 25px;
+  width: 0.375rem;
+  height: 0.26042rem;
+  line-height: 0.26042rem;
   color: #ffffff;
   font-family: FZLTZHK--GBK1-0, Lantinghei SC;
-  font-size: 18px;
+  font-size: 0.1875rem;
   font-weight: 500;
 }
 
 .banner .productAdvantages {
   opacity: 0.7;
-  margin-top: 4px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-top: 0.04167rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
 .banner .technicalAdvantages {
   opacity: 0.7;
-  margin-top: 4px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-top: 0.04167rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
 .banner .serviceAdvantages {
   opacity: 0.7;
-  margin-top: 4px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-top: 0.04167rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -147,17 +147,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 4px;
-  border-radius: 1px;
+  margin-top: 0.04167rem;
+  border-radius: 0.01042rem;
   background-color: #ffffff;
-  width: 32px;
-  height: 2px;
+  width: 0.33333rem;
+  height: 0.02083rem;
 }
 
 .banner .logo {
-  margin-left: 100px;
-  width: 110px;
-  height: 44px;
+  margin-left: 1.04167rem;
+  width: 1.14583rem;
+  height: 0.45833rem;
 }
 
 .banner .brandStrength {
@@ -172,12 +172,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 0.7;
-  margin-left: 100px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-left: 1.04167rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -193,12 +193,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 0.7;
-  margin-left: 77px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-left: 0.80208rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -214,12 +214,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 0.7;
-  margin-left: 76px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-left: 0.79167rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -235,12 +235,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 0.7;
-  margin-left: 77px;
-  width: 64px;
-  height: 22px;
-  line-height: 22px;
+  margin-left: 0.80208rem;
+  width: 0.66667rem;
+  height: 0.22917rem;
+  line-height: 0.22917rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -272,7 +272,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 84px;
+  height: 0.875rem;
 }
 
 .banner .title {
@@ -280,11 +280,11 @@ body {
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 84px;
+  line-height: 0.875rem;
   letter-spacing: 10;
   color: #ffffff;
   font-family: FZLTZHK--GBK1-0, Lantinghei SC;
-  font-size: 60px;
+  font-size: 0.625rem;
   font-weight: 500;
 }
 
@@ -300,7 +300,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 50px;
+  height: 0.52083rem;
 }
 
 .banner .title_2 {
@@ -308,20 +308,20 @@ body {
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 50px;
+  line-height: 0.52083rem;
   letter-spacing: 16;
   color: #ffffff;
   font-family: FZLTXHK--GBK1-0, Lantinghei SC;
-  font-size: 36px;
+  font-size: 0.375rem;
   font-weight: 300;
 }
 
 .banner .collapseIcon {
   position: absolute;
-  right: 100px;
-  bottom: 57px;
-  width: 14px;
-  height: 12px;
+  right: 1.04167rem;
+  bottom: 0.59375rem;
+  width: 0.14583rem;
+  height: 0.125rem;
 }
 
 .advantage {
@@ -338,7 +338,7 @@ body {
           flex-direction: column;
   margin-top: 7.3vw;
   width: 100%;
-  height: 367px;
+  height: 3.82292rem;
 }
 
 .advantage .hd {
@@ -356,32 +356,32 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 42px;
+  height: 0.4375rem;
 }
 
 .advantage .logo {
-  width: 100px;
-  height: 6px;
+  width: 1.04167rem;
+  height: 0.0625rem;
 }
 
 .advantage .productAdvantages {
   opacity: 1;
-  margin-left: 14px;
-  max-width: 128px;
-  height: 42px;
+  margin-left: 0.14583rem;
+  max-width: 1.33333rem;
+  height: 0.4375rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 42px;
+  line-height: 0.4375rem;
   color: #222222;
   font-family: FZLTZHK--GBK1-0, Lantinghei SC;
-  font-size: 30px;
+  font-size: 0.3125rem;
   font-weight: 500;
 }
 
 .advantage .logo_2 {
-  margin-left: 14px;
-  width: 100px;
-  height: 6px;
+  margin-left: 0.14583rem;
+  width: 1.04167rem;
+  height: 0.0625rem;
 }
 
 .advantage .bd {
@@ -413,32 +413,32 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* width: 300px; */
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
   height: calc(225vw/ 19.2);
-  /* height: 206px; */
+  /* height: getRem(206); */
 }
 
 .advantage .entryPic {
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  margin-top: 13px;
-  /* width: 300px; */
+  -webkit-filter: blur(0.20833rem);
+          filter: blur(0.20833rem);
+  margin-top: 0.13542rem;
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
   height: auto;
 }
 
 .advantage .info {
   opacity: 1;
-  /* margin-top: 19px; */
+  /* margin-top: getRem(19); */
   margin-top: calc(29vw / 19.2);
-  max-width: 200px;
+  max-width: 2.08333rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 22px;
+  line-height: 0.22917rem;
   letter-spacing: 7.11;
   color: #333333;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -454,31 +454,31 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* margin-left: 79px; */
-  /* height: 206px; */
+  /* margin-left: getRem(79); */
+  /* height: getRem(206); */
   height: calc(225vw/ 19.2);
 }
 
 .advantage .entryPic_2 {
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  /* width: 300px; */
+  -webkit-filter: blur(0.20833rem);
+          filter: blur(0.20833rem);
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
   height: auto;
 }
 
 .advantage .info_2 {
   opacity: 1;
-  /* margin-top: 19px; */
+  /* margin-top: getRem(19); */
   margin-top: calc(29vw / 19.2);
-  /* margin-left: 95px; */
-  max-width: 193px;
+  /* margin-left: getRem(95); */
+  max-width: 2.01042rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 22px;
+  line-height: 0.22917rem;
   letter-spacing: 7.11;
   color: #333333;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -494,33 +494,33 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* margin-left: 77px; */
-  /* width: 300px; */
+  /* margin-left: getRem(77); */
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
-  /* height: 206px; */
+  /* height: getRem(206); */
   height: calc(225vw/ 19.2);
 }
 
 .advantage .entryPic_3 {
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  margin-top: 2px;
-  /* width: 300px; */
+  -webkit-filter: blur(0.20833rem);
+          filter: blur(0.20833rem);
+  margin-top: 0.02083rem;
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
   height: auto;
 }
 
 .advantage .info_3 {
   opacity: 1;
-  /* margin-top: 19px; */
+  /* margin-top: getRem(19); */
   margin-top: calc(29vw / 19.2);
-  max-width: 212px;
+  max-width: 2.20833rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 22px;
+  line-height: 0.22917rem;
   letter-spacing: 7.11;
   color: #333333;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
@@ -536,40 +536,40 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* margin-left: 92px; */
-  /* width: 300px; */
+  /* margin-left: getRem(92); */
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
-  /* height: 206px; */
+  /* height: getRem(206); */
   height: calc(225vw/ 19.2);
 }
 
 .advantage .entryPic_4 {
-  -webkit-filter: blur(20px);
-          filter: blur(20px);
-  margin-top: 12px;
-  /* width: 300px; */
+  -webkit-filter: blur(0.20833rem);
+          filter: blur(0.20833rem);
+  margin-top: 0.125rem;
+  /* width: getRem(300); */
   width: calc(300vw / 19.2);
   height: auto;
 }
 
 .advantage .info_4 {
   opacity: 1;
-  /* margin-top: 19px; */
+  /* margin-top: getRem(19); */
   margin-top: calc(29vw / 19.2);
-  max-width: 226px;
+  max-width: 2.35417rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 22px;
+  line-height: 0.22917rem;
   letter-spacing: 7.11;
   color: #333333;
-  font-size: 16px;
+  font-size: 0.16667rem;
   font-weight: 400;
 }
 
 .advantage .entryPic_5 {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0rem;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -578,7 +578,7 @@ body {
 .advantage .entryPic_6 {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0rem;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -587,7 +587,7 @@ body {
 .advantage .entryPic_7 {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0rem;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -596,7 +596,7 @@ body {
 .advantage .entryPic_8 {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0rem;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -617,12 +617,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /* height: 530px; */
+  /* height: getRem(530); */
   width: 15.63542rem;
   height: calc(530vw / 19.2);
   margin: 0 auto;
-  margin-top: calc(200vw / 19.2);
-  border: 1px solid red;
+  margin-top: 2.08333rem;
 }
 
 .experience .primary {
@@ -636,32 +635,32 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 530px;
+  height: 5.52083rem;
 }
 
 .experience .title {
   opacity: 1;
-  margin-top: 69px;
-  max-width: 385px;
+  margin-top: 0.71875rem;
+  max-width: 4.01042rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 56px;
+  line-height: 0.58333rem;
   color: #000000;
   font-family: FZLTZHK--GBK1-0, Lantinghei SC;
-  font-size: 40px;
+  font-size: 0.41667rem;
   font-weight: 500;
 }
 
 .experience .article {
   opacity: 1;
-  width: 397px;
-  height: 120px;
+  width: 4.13542rem;
+  height: 1.25rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 40px;
+  line-height: 0.41667rem;
   color: #333333;
   font-family: FZLTXHK--GBK1-0, Lantinghei SC;
-  font-size: 18px;
+  font-size: 0.1875rem;
   font-weight: 300;
 }
 
@@ -672,7 +671,6 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  border: 1px solid blue;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -683,26 +681,24 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* width: 914px; */
-  width: calc(914vw / 19.2);
-  /* height: 530px; */
-  height: calc(530vw / 19.2);
+  width: 9.52083rem;
+  height: 5.52083rem;
 }
 
 .experience .laptop .back {
   /* position: absolute; */
-  /* top: 0px;
-    left: 0px; */
+  /* top: getRem(0);
+    left: getRem(0); */
   width: 100%;
   height: 100%;
 }
 
 .experience .laptop .content {
   position: absolute;
-  /* width: 712px; */
-  width: calc(712vw / 91.2);
-  /* height: 460px; */
-  height: calc(460vw / 91.2);
+  top: 0.52083rem;
+  right: 1.09375rem;
+  width: 7.41667rem;
+  height: 4.58333rem;
 }
 
 .experience .phone {
@@ -710,8 +706,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 95px;
-  left: 504px;
+  top: 0.98958rem;
+  left: 5.25rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -722,21 +718,21 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 210px;
-  height: 432px;
+  width: 2.1875rem;
+  height: 4.5rem;
 }
 
 .experience .bg {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 210px;
-  height: 432px;
+  top: 0rem;
+  left: 0rem;
+  width: 2.1875rem;
+  height: 4.5rem;
 }
 
 .experience .itemLong {
   position: relative;
-  width: 190px;
-  height: 411px;
+  width: 1.97917rem;
+  height: 4.28125rem;
 }
 /*# sourceMappingURL=index.css.map */
