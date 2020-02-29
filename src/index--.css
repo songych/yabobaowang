@@ -1,0 +1,560 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: #d8d8d8;
+    width: 100%;
+    height: 52.1vw;
+    overflow: hidden;
+}
+
+.banner .layerWrap {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .layer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .container {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+}
+
+.banner .outer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 44px;
+}
+
+.banner .wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 486px;
+    height: 26px;
+}
+
+.banner .homePage {
+    opacity: 1;
+    width: 36px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner .productAdvantages {
+    opacity: 0.7;
+    margin-top: 4px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .technicalAdvantages {
+    opacity: 0.7;
+    margin-top: 4px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .serviceAdvantages {
+    opacity: 0.7;
+    margin-top: 4px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .color {
+    display: flex;
+    margin-top: 4px;
+    border-radius: 1px;
+    background-color: #ffffff;
+    width: 32px;
+    height: 2px;
+}
+
+.banner .logo {
+    margin-left: 100px;
+    width: 110px;
+    height: 44px;
+}
+
+.banner .brandStrength {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 100px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .successStories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 77px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .businessProcess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 76px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .contactUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 77px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner .slogan{
+    position: absolute;
+    top: 21.9vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner .titleWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 84px;
+}
+
+.banner .title {
+    opacity: 1;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 84px;
+    letter-spacing: 10;
+    color: #ffffff;
+    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.banner .titleWrap_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.banner .title_2 {
+    opacity: 0.5;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 50px;
+    letter-spacing: 16;
+    color: #ffffff;
+    font-family: FZLTXHK--GBK1-0, Lantinghei SC;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.banner .collapseIcon {
+    position: absolute;
+    right: 100px;
+    bottom: 57px;
+    width: 14px;
+    height: 12px;
+}
+
+.advantage {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 7.3vw;
+    width: 100%;
+    height: 367px;
+}
+
+.advantage .hd {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 42px;
+}
+
+.advantage .logo {
+    width: 100px;
+    height: 6px;
+}
+
+.advantage .productAdvantages {
+    opacity: 1;
+    margin-left: 14px;
+    max-width: 128px;
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 42px;
+    color: #222222;
+    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.advantage .logo_2 {
+    margin-left: 14px;
+    width: 100px;
+    height: 6px;
+}
+
+.advantage .bd {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    /* margin-top: 6.2vw; */
+    margin-top: calc(60vw / 19.2);
+    width: 78vw;
+    overflow: hidden;
+}
+
+.advantage .entryPicWrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    height: calc(225vw/ 19.2);
+    /* height: 206px; */
+}
+
+.advantage .entryPic {
+    filter: blur(20px);
+    margin-top: 13px;
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    height: auto;
+}
+
+.advantage .info {
+    opacity: 1;
+    /* margin-top: 19px; */
+    margin-top: calc(29vw / 19.2);
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    letter-spacing: 7.11;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantage .block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 79px; */
+    /* height: 206px; */
+    height: calc(225vw/ 19.2);
+}
+
+.advantage .entryPic_2 {
+    filter: blur(20px);
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    height: auto;
+}
+
+.advantage .info_2 {
+    opacity: 1;
+    /* margin-top: 19px; */
+    margin-top: calc(29vw / 19.2);
+    /* margin-left: 95px; */
+    max-width: 193px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    letter-spacing: 7.11;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantage .entryPicWrap_2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 77px; */
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    /* height: 206px; */
+    height: calc(225vw/ 19.2);
+}
+
+.advantage .entryPic_3 {
+    filter: blur(20px);
+    margin-top: 2px;
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    height: auto;
+}
+
+.advantage .info_3 {
+    opacity: 1;
+    /* margin-top: 19px; */
+    margin-top: calc(29vw / 19.2);
+    max-width: 212px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    letter-spacing: 7.11;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantage .entryPicWrap_3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 92px; */
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    /* height: 206px; */
+    height: calc(225vw/ 19.2);
+}
+
+.advantage .entryPic_4 {
+    filter: blur(20px);
+    margin-top: 12px;
+    /* width: 300px; */
+    width: calc(300vw / 19.2);
+    height: auto;
+}
+
+.advantage .info_4 {
+    opacity: 1;
+    /* margin-top: 19px; */
+    margin-top: calc(29vw / 19.2);
+    max-width: 226px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    letter-spacing: 7.11;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantage .entryPic_5 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.advantage .entryPic_6 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.advantage .entryPic_7 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.advantage .entryPic_8 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.experience {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(1501vw / 19.2);
+    /* height: 530px; */
+    height: calc(530vw / 19.2);
+    margin: 0 auto;
+    margin-top: calc(200vw / 19.2);
+    border: 1px solid red;
+}
+
+.experience .primary {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 530px;
+}
+
+.experience .title {
+    opacity: 1;
+    margin-top: 69px;
+    max-width: 385px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 56px;
+    color: #000000;
+    font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.experience .article {
+    opacity: 1;
+    width: 397px;
+    height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    color: #333333;
+    font-family: FZLTXHK--GBK1-0, Lantinghei SC;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.experience .laptop{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid blue;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 914px; */
+    width: calc(914vw / 19.2);
+    /* height: 530px; */
+    height: calc(530vw / 19.2);
+}
+
+.experience .laptop .back{
+    /* position: absolute; */
+    /* top: 0px;
+    left: 0px; */
+    width: 100%;
+    height: 100%;
+}
+
+.experience .laptop .content{
+    position: absolute;
+    /* width: 712px; */
+    width: calc(712vw / 91.2);
+    /* height: 460px; */
+    height: calc(460vw / 91.2);
+}
+
+.experience .phone{
+    display: flex;
+    position: absolute;
+    top: 95px;
+    left: 504px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 210px;
+    height: 432px;
+}
+
+.experience .bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 210px;
+    height: 432px;
+}
+
+.experience .itemLong {
+    position: relative;
+    width: 190px;
+    height: 411px;
+}
