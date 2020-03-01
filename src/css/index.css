@@ -78,13 +78,13 @@ body {
 
 .banner .nav-outer.fixed .nav span.active {
   color: #E0C9B2;
-  border-bottom: 2px solid #E0C9B2;
+  border-bottom: 0.02083rem solid #E0C9B2;
 }
 
 .banner .nav-outer .nav {
   width: 13.33333rem;
-  max-width: 1280px;
-  min-width: 1200px;
+  max-width: 13.33333rem;
+  min-width: 12.5rem;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +115,7 @@ body {
   color: #FFFFFF;
   letter-spacing: 0;
   font-weight: bold;
-  border-bottom: 2px solid white;
+  border-bottom: 0.02083rem solid white;
 }
 
 .banner .logo {
@@ -546,7 +546,7 @@ body {
 .experience .laptop .back {
   /* position: absolute; */
   /* top: getRem(0);
-    left: getRem(0); */
+  left: getRem(0); */
   width: 100%;
   height: 100%;
 }
@@ -1138,5 +1138,1114 @@ body {
   letter-spacing: 0;
   line-height: 0.41667rem;
   margin-top: 0.17708rem;
+}
+
+.tech-advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20rem;
+  height: 11.25rem;
+}
+
+.tech-advantage .layerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20rem;
+  height: 11.25rem;
+}
+
+.tech-advantage .layer {
+  position: relative;
+  width: 20rem;
+  height: 11.25rem;
+}
+
+.tech-advantage .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 1.04167rem;
+  left: 0rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 19.98958rem;
+  height: 0.4375rem;
+}
+
+.tech-advantage .outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 3.625rem;
+  height: 0.4375rem;
+}
+
+.tech-advantage .logo {
+  width: 1.04167rem;
+  height: 0.0625rem;
+}
+
+.tech-advantage .technicalAdvantages {
+  opacity: 1;
+  margin-left: 0.14583rem;
+  line-height: 0.4375rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.3125rem;
+  font-weight: 500;
+}
+
+.tech-advantage .logo_2 {
+  margin-left: 0.14583rem;
+  width: 1.04167rem;
+  height: 0.0625rem;
+}
+
+.tech-advantage .block_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 3.89583rem;
+  left: 0rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20rem;
+  height: 4.58333rem;
+}
+
+.tech-advantage .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  width: 3.33333rem;
+  height: 4.58333rem;
+  overflow: hidden;
+}
+
+.tech-advantage .pic {
+  margin-top: 0.36458rem;
+  width: 1.08333rem;
+  height: 0.97917rem;
+}
+
+.tech-advantage .computerRoom {
+  opacity: 1;
+  margin-top: 0.30208rem;
+  max-width: 1.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #333333;
+  font-size: 0.20833rem;
+  font-weight: 400;
+}
+
+.tech-advantage .group_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.51042rem;
+  background-color: #ffffff;
+  width: 3.33333rem;
+  height: 4.58333rem;
+  overflow: hidden;
+}
+
+.tech-advantage .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.40625rem;
+  width: 3.32292rem;
+}
+
+.tech-advantage .largeIcon {
+  width: 0.72917rem;
+  height: 0.9375rem;
+}
+
+.tech-advantage .highDefenseWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.30208rem;
+  width: 3.32292rem;
+}
+
+.tech-advantage .highDefense {
+  opacity: 1;
+  max-width: 3.19792rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #333333;
+  font-size: 0.20833rem;
+  font-weight: 400;
+}
+
+.tech-advantage .millionsGrades {
+  opacity: 1;
+  margin-left: 0.34375rem;
+  line-height: 0.27083rem;
+  color: #666666;
+  font-size: 0.14583rem;
+  font-weight: 400;
+}
+
+.tech-advantage .txt {
+  opacity: 1;
+  line-height: 0.27083rem;
+  color: #666666;
+  font-family: Helvetica;
+  font-size: 0.14583rem;
+  font-weight: normal;
+}
+
+.tech-advantage .concurrentAttack {
+  opacity: 1;
+  max-width: 2.17708rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.27083rem;
+  color: #666666;
+  font-size: 0.14583rem;
+  font-weight: 400;
+}
+
+.tech-advantage .container_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.52083rem;
+  background-color: #ffffff;
+  width: 3.33333rem;
+  height: 4.58333rem;
+  overflow: hidden;
+}
+
+.tech-advantage .img {
+  margin-top: 0.34375rem;
+  width: 0.88542rem;
+  height: 0.97917rem;
+}
+
+.tech-advantage .line {
+  opacity: 1;
+  margin-top: 0.32292rem;
+  max-width: 1.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #333333;
+  font-size: 0.20833rem;
+  font-weight: 400;
+}
+
+.tech-advantage .article {
+  margin-top: 0.14583rem;
+  width: 2.625rem;
+  height: 1.35417rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.27083rem;
+  color: #666666;
+  font-size: 0.14583rem;
+  font-weight: 400;
+}
+
+.tech-advantage .outer_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.52083rem;
+  background-color: #ffffff;
+  width: 3.33333rem;
+  height: 4.58333rem;
+  overflow: hidden;
+}
+
+.tech-advantage .smallItem {
+  margin-top: 0.32292rem;
+  width: 0.97917rem;
+  height: 1.02083rem;
+}
+
+.tech-advantage .communication {
+  opacity: 1;
+  margin-top: 0.30208rem;
+  max-width: 1.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #333333;
+  font-size: 0.20833rem;
+  font-weight: 400;
+}
+
+.tech-advantage .article_2 {
+  opacity: 1;
+  margin-top: 0.14583rem;
+  width: 2.625rem;
+  height: 1.35417rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.27083rem;
+  color: #666666;
+  font-size: 0.14583rem;
+  font-weight: 400;
+}
+
+.tech-advantage .block .desc {
+  font-family: PingFangSC-Regular;
+  font-size: 0.14583rem;
+  color: #666666;
+  letter-spacing: 0;
+  line-height: 0.27083rem;
+  width: 2.65625rem;
+  margin-top: 0.19792rem;
+}
+
+.service-advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20rem;
+  height: 13.33333rem;
+}
+
+.service-advantage .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20rem;
+  height: 13.33333rem;
+}
+
+.service-advantage .layer {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 20rem;
+  height: 13.33333rem;
+}
+
+.service-advantage .hd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 4.29167rem;
+  width: 3.625rem;
+  height: 0.4375rem;
+}
+
+.service-advantage .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.16667rem;
+  background-color: #ffffff;
+  width: 1.04167rem;
+  height: 0.0625rem;
+}
+
+.service-advantage .serviceAdvantages {
+  opacity: 1;
+  margin-left: 0.14583rem;
+  line-height: 0.4375rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.3125rem;
+  font-weight: 500;
+}
+
+.service-advantage .logo {
+  margin-top: 0.16667rem;
+  margin-left: 0.14583rem;
+  width: 1.04167rem;
+  height: 0.0625rem;
+}
+
+.service-advantage .bd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.09375rem;
+  width: 13.33333rem;
+  height: 4.9375rem;
+}
+
+.service-advantage .group_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.service-advantage .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 2.05208rem;
+}
+
+.service-advantage .outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 1.75rem;
+}
+
+.service-advantage .largeIcon {
+  width: 0.52083rem;
+  height: 0.52083rem;
+}
+
+.service-advantage .customDesign {
+  opacity: 1;
+  margin-top: 0.28125rem;
+  max-width: 3.04167rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.25rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .colorDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.14583rem;
+  margin-left: 0.02083rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.20833rem;
+}
+
+.service-advantage .logo_2 {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .logoNext {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .info {
+  opacity: 1;
+  margin-left: 0.17708rem;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .desc {
+  opacity: 1;
+  max-width: 3.16667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .block_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.07292rem;
+  margin-left: 1.77083rem;
+  height: 1.97917rem;
+}
+
+.service-advantage .block_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 1.67708rem;
+}
+
+.service-advantage .largeIcon_2 {
+  width: 0.54167rem;
+  height: 0.46875rem;
+}
+
+.service-advantage .info_2 {
+  opacity: 1;
+  margin-top: 0.26042rem;
+  max-width: 3.3125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.25rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .color_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.14583rem;
+  margin-left: 0.03125rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.20833rem;
+}
+
+.service-advantage .vipPrev {
+  opacity: 1;
+  margin-left: 0.01042rem;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .vip {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .vipNext {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .info_3 {
+  opacity: 1;
+  max-width: 3.4375rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.10417rem;
+  margin-left: 1.5rem;
+  width: 3.34375rem;
+  height: 1.94792rem;
+}
+
+.service-advantage .banbenguanli {
+  width: 0.45833rem;
+  height: 0.42708rem;
+}
+
+.service-advantage .info_4 {
+  opacity: 1;
+  margin-top: 0.27083rem;
+  max-width: 3.33333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .colorDiv_2 {
+  margin-top: 0.10417rem;
+  margin-left: 0.03125rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .percentPrev {
+  position: relative;
+  opacity: 1;
+  margin-top: 0.20833rem;
+  width: 3.16667rem;
+  height: 0.625rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .percent {
+  position: absolute;
+  top: 1.63542rem;
+  left: 1.34375rem;
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .percentNext {
+  position: absolute;
+  top: 1.63542rem;
+  left: 1.6875rem;
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .block_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.63542rem;
+}
+
+.service-advantage .container_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 3.4375rem;
+  height: 1.86458rem;
+}
+
+.service-advantage .group_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 3.4375rem;
+  height: 1.625rem;
+}
+
+.service-advantage .kefu {
+  width: 0.46875rem;
+  height: 0.5625rem;
+}
+
+.service-advantage .hourlyCustomerService {
+  opacity: 1;
+  margin-top: 0.05208rem;
+  max-width: 3.3125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.25rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .colorDiv_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.14583rem;
+  margin-left: 0.02083rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .group_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.20833rem;
+}
+
+.service-advantage .cooperativeMerchant {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .vip_2 {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .vipNext_2 {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .desc_2 {
+  position: absolute;
+  top: 1.55208rem;
+  left: 0rem;
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .block_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.51042rem;
+  width: 3.33333rem;
+  height: 1.85417rem;
+}
+
+.service-advantage .zaixiankefu {
+  width: 0.375rem;
+  height: 0.5rem;
+}
+
+.service-advantage .operationalGuidance {
+  opacity: 1;
+  margin-top: 0.10417rem;
+  max-width: 3.33333rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .color_3 {
+  margin-top: 0.10417rem;
+  margin-left: 0.02083rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .summary {
+  position: relative;
+  opacity: 1;
+  margin-top: 0.20833rem;
+  width: 3.33333rem;
+  height: 0.625rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .word {
+  position: absolute;
+  top: 1.54167rem;
+  left: 2.5rem;
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .group_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.07292rem;
+  margin-left: 1.60417rem;
+  height: 1.79167rem;
+}
+
+.service-advantage .container_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 1.47917rem;
+}
+
+.service-advantage .Group {
+  width: 0.5rem;
+  height: 0.4375rem;
+}
+
+.service-advantage .info_5 {
+  opacity: 1;
+  margin-top: 0.10417rem;
+  max-width: 2.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.29167rem;
+  color: #ffffff;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: 0.20833rem;
+  font-weight: 500;
+}
+
+.service-advantage .color_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.10417rem;
+  margin-left: 0.03125rem;
+  background-color: #e0c9b2;
+  width: 0.83333rem;
+  height: 0.02083rem;
+}
+
+.service-advantage .container_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.20833rem;
+}
+
+.service-advantage .buildPlatform {
+  opacity: 1;
+  margin-left: 0.01042rem;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .word_2 {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .paymentAccess {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .txt {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .financialRiskControl {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .text {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .operationActivity {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .outer_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.service-advantage .dynamic {
+  opacity: 1;
+  margin-left: 0.01042rem;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
+}
+
+.service-advantage .word_3 {
+  opacity: 1;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 0.16667rem;
+  font-weight: normal;
+}
+
+.service-advantage .info_6 {
+  opacity: 1;
+  max-width: 2.48958rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 0.3125rem;
+  color: #ffffff;
+  font-size: 0.16667rem;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.css.map */
