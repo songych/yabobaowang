@@ -1,4 +1,3 @@
-
 const nav = document.querySelector('#nav-outer');
 const navLogo = document.querySelector('#nav-logo');
 let scrollTopBefore = 0;
@@ -49,3 +48,14 @@ $('#nav-outer .nav').on('click', (e)=>{
         window.location.href = '#'+hash;
     }
 });
+
+var mySwiper = new Swiper('.swiper-container', {
+    loop: true, // 循环模式选项
+    autoplay: true,
+    on: {
+        slideChangeTransitionEnd: function(){
+            console.log('改变了，activeIndex为'+this.activeIndex);
+        },
+    }
+})  
+mySwiper.allowTouchMove = false;

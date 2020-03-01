@@ -341,7 +341,6 @@ body {
 .advantage .info_2 {
   opacity: 1;
   margin-top: 0.30208rem;
-  margin-left: 0.98958rem;
   max-width: 2.01042rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -671,140 +670,41 @@ body {
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: FZLTXHK--GBK1-0;
+  font-size: 0.1875rem;
+  color: #999999;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 0.97917rem;
+}
+
+.selected .nav .nav-item:first-child {
+  margin-left: 0;
 }
 
 .selected .nav .nav-item.active {
   border-bottom: 0.02083rem solid #E0C9B2;
   color: #E0C9B2;
-}
-
-.selected .sportsEvents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  opacity: 1;
-  height: 0.29167rem;
-  line-height: 0.29167rem;
-  color: #e0c9b2;
+  font-family: PingFangSC-Regular;
   font-size: 0.20833rem;
-  font-weight: 400;
+  color: #E0C9B2;
+  letter-spacing: 0;
+  text-align: center;
 }
 
-.selected .liveEntertainment {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 1;
-  margin-left: 0.9375rem;
-  width: 0.75rem;
-  height: 0.26042rem;
-  line-height: 0.26042rem;
-  color: #999999;
-  font-size: 0.1875rem;
-  font-weight: 400;
+.selected .swiper-container {
+  width: 100%;
+  height: 8.125rem;
+  margin-top: 1.29167rem;
+  border: 1px solid red;
 }
 
-.selected .eSports {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 1;
-  margin-left: 0.97917rem;
-  width: 0.75rem;
-  height: 0.26042rem;
-  line-height: 0.26042rem;
-  color: #999999;
-  font-size: 0.1875rem;
-  font-weight: 400;
-}
-
-.selected .chessCardGames {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 1;
-  margin-left: 0.96875rem;
-  width: 0.75rem;
-  height: 0.26042rem;
-  line-height: 0.26042rem;
-  color: #999999;
-  font-size: 0.1875rem;
-  font-weight: 400;
-}
-
-.selected .lotteryBetting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 1;
-  margin-left: 0.97917rem;
-  width: 0.75rem;
-  height: 0.26042rem;
-  line-height: 0.26042rem;
-  color: #999999;
-  font-size: 0.1875rem;
-  font-weight: 400;
-}
-
-.selected .electronicEntertainment {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 1;
-  margin-left: 0.97917rem;
-  max-width: 3.96875rem;
-  height: 0.26042rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 0.26042rem;
-  color: #999999;
-  font-size: 0.1875rem;
-  font-weight: 400;
+.selected .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 0.83333rem;
 }
 
 .selected .main {
@@ -822,7 +722,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 1.29167rem;
+  overflow: visible;
   width: 100%;
   height: 7.29167rem;
 }

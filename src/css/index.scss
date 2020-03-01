@@ -254,7 +254,6 @@ body {
 .advantage .info_2 {
     opacity: 1;
     margin-top: getRem(29);
-    margin-left: getRem(95); 
     max-width: getRem(193);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -514,105 +513,46 @@ body {
     display: inline-block;
     height: 100%;
     box-sizing: border-box;
+    font-family: FZLTXHK--GBK1-0;
+    font-size: getRem(18);
+    color: #999999;
+    letter-spacing: 0;
+    text-align: center;
+    margin-left: getRem(94);
+    &:first-child{
+        margin-left: 0;
+    }
     &.active{
         border-bottom: getRem(2) solid #E0C9B2;
         color: #E0C9B2;
+        font-family: PingFangSC-Regular;
+        font-size: getRem(20);
+        color: #E0C9B2;
+        letter-spacing: 0;
+        text-align: center;
     }
 }
-
-.selected .sportsEvents {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-end;
-    opacity: 1;
-    // width: getRem(429);
-    height: getRem(28);
-    line-height: getRem(28);
-    color: #e0c9b2;
-    font-size: getRem(20);
-    font-weight: 400;
+.selected{
+    .swiper-container{
+        width: 100%;
+        height: getRem(780);
+        margin-top: getRem(124);
+        .swiper-wrapper{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding-top: getRem(80);
+        }
+        border: 1px solid red;
+    }
 }
-
-.selected .liveEntertainment {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 1;
-    margin-left: getRem(90);
-    width: getRem(72);
-    height: getRem(25);
-    line-height: getRem(25);
-    color: #999999;
-    font-size: getRem(18);
-    font-weight: 400;
-}
-
-.selected .eSports {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 1;
-    margin-left: getRem(94);
-    width: getRem(72);
-    height: getRem(25);
-    line-height: getRem(25);
-    color: #999999;
-    font-size: getRem(18);
-    font-weight: 400;
-}
-
-.selected .chessCardGames {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 1;
-    margin-left: getRem(93);
-    width: getRem(72);
-    height: getRem(25);
-    line-height: getRem(25);
-    color: #999999;
-    font-size: getRem(18);
-    font-weight: 400;
-}
-
-.selected .lotteryBetting {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 1;
-    margin-left: getRem(94);
-    width: getRem(72);
-    height: getRem(25);
-    line-height: getRem(25);
-    color: #999999;
-    font-size: getRem(18);
-    font-weight: 400;
-}
-
-.selected .electronicEntertainment {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    opacity: 1;
-    margin-left: getRem(94);
-    max-width: getRem(381);
-    height: getRem(25);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: getRem(25);
-    color: #999999;
-    font-size: getRem(18);
-    font-weight: 400;
-}
-
 .selected .main {
     display: flex;
     position: relative;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: getRem(124);
+    overflow: visible;
     width: 100%;
     height: getRem(700);
 }
