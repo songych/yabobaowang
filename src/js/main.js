@@ -49,13 +49,23 @@ $('#nav-outer .nav').on('click', (e)=>{
     }
 });
 
+const $navs = $('.selected .nav').children();
 var mySwiper = new Swiper('.swiper-container', {
     loop: true, // 循环模式选项
     autoplay: true,
     on: {
         slideChangeTransitionEnd: function(){
-            console.log('改变了，activeIndex为'+this.activeIndex);
+            console.log('改变了，realIndex为'+this.realIndex);
+            $navs.removeClass('active');
+            $navs.eq(this.realIndex).addClass('active');
         },
     }
 })  
 mySwiper.allowTouchMove = false;
+$navs.click((e)=>{
+    // mySwiper.slideNext();
+    const index = $navs.index(e.target);
+    console.log(index);
+    mySwiper.slideToLoop(index);
+    mySwiper.autoplay.start();
+});

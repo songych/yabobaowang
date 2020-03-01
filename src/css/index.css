@@ -683,7 +683,6 @@ body {
 }
 
 .selected .nav .nav-item.active {
-  border-bottom: 0.02083rem solid #E0C9B2;
   color: #E0C9B2;
   font-family: PingFangSC-Regular;
   font-size: 0.20833rem;
@@ -695,8 +694,7 @@ body {
 .selected .swiper-container {
   width: 100%;
   height: 8.125rem;
-  margin-top: 1.29167rem;
-  border: 1px solid red;
+  margin-top: 0.83333rem;
 }
 
 .selected .swiper-container .swiper-wrapper {
@@ -727,6 +725,27 @@ body {
   height: 7.29167rem;
 }
 
+.selected .main .profile {
+  opacity: 0;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  width: 7.53125rem;
+  height: 8.16667rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.selected .main.swiper-slide-active .profile {
+  opacity: 1;
+  right: 1.05208rem;
+}
+
+.selected .main.swiper-slide-active .content-left-wrap {
+  opacity: 1;
+  top: 0.9375rem;
+}
+
 .selected .layerWrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -755,17 +774,12 @@ body {
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 0.41667rem;
-  position: absolute;
-  top: 3.42708rem;
-  left: 0.85417rem;
   width: 5.78125rem;
+  margin-top: 0.20833rem;
 }
 
 .selected .sportsEvents_2 {
-  position: absolute;
-  top: 2.625rem;
-  left: 0.85417rem;
-  opacity: 1;
+  margin-top: 0.625rem;
   line-height: 0.72917rem;
   color: #ffffff;
   font-size: 0.52083rem;
@@ -798,14 +812,22 @@ body {
   height: 0.54167rem;
 }
 
-.selected .logo-wrap {
+.selected .content-left-wrap {
   position: absolute;
-  left: 0.85417rem;
-  bottom: 1.32292rem;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  top: 1.14583rem;
+  left: 0.83333rem;
+  width: 9.375rem;
+}
+
+.selected .logo-wrap {
   height: 0.52083rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 0.35417rem;
 }
 
 .selected .logo1 {
@@ -819,18 +841,7 @@ body {
   margin-left: 0.44792rem;
 }
 
-.selected .profile {
-  position: absolute;
-  bottom: 0rem;
-  right: 1.05208rem;
-  width: 7.53125rem;
-  height: 8.16667rem;
-}
-
 .selected .sportsEvents_3 {
-  position: absolute;
-  top: 0.9375rem;
-  left: 0.83333rem;
   opacity: 1;
   line-height: 1.125rem;
   color: #ffffff;
