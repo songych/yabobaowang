@@ -2793,3 +2793,75 @@ body {
   font-size: getRem(12);
   font-weight: 400;
 }
+.success {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafcfc;
+  width: getRem(1920);
+  height: getRem(1470);
+  overflow: hidden;
+}
+.success .wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: getRem(80);
+  width: getRem(348);
+  height: getRem(42);
+}
+.success .logo {
+  width: getRem(100);
+  height: getRem(6);
+}
+.success .successStories {
+  opacity: 1;
+  margin-left: getRem(14);
+  line-height: getRem(42);
+  color: #222222;
+  font-family: FZLTZHK--GBK1-0, Lantinghei SC;
+  font-size: getRem(30);
+  font-weight: 500;
+}
+.success .logo_2 {
+  margin-left: getRem(14);
+  width: getRem(100);
+  height: getRem(6);
+}
+.success-content {
+  width: getRem(1630);
+  height: getRem(1110);
+  margin: 0 auto;
+  margin-top: getRem(116);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow:hidden;
+}
+
+.success-content-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: getRem(477);
+  height: getRem(519);
+}
+.success-content-item .item {
+  width: getRem(477);
+  height: getRem(477);
+  overflow: hidden;
+}
+.success-content-item .viewCase {
+  opacity: 1;
+  margin-top: getRem(20);
+  max-width: getRem(271);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: getRem(22);
+  color: #e0c9b2;
+  font-size: getRem(16);
+  font-weight: 400;
+  display: none;
+}
