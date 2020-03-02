@@ -61,7 +61,7 @@ $('#collapseIcon').click((e)=>{
 const $navs = $('.selected .nav').children();
 var mySwiper = new Swiper('.swiper-container', {
     loop: true, // 循环模式选项
-    autoplay: true,
+    // autoplay: true,
     on: {
         slideChangeTransitionEnd: function(){
             console.log('改变了，realIndex为'+this.realIndex);

@@ -266,6 +266,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   width: getRem(300);
   height: getRem(225);
 }
@@ -278,8 +279,6 @@ body {
 }
 
 .advantage .info {
-  opacity: 1;
-  margin-top: getRem(29); 
   max-width: getRem(200);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -317,14 +316,6 @@ body {
   font-weight: 400;
 }
 
-.advantage .entryPicWrap_2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: getRem(300); 
-  height: getRem(225); 
-}
 
 .advantage .entryPic_3 {
   filter: blur(getRem(20));
@@ -346,15 +337,6 @@ body {
   font-weight: 400;
 }
 
-.advantage .entryPicWrap_3 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: getRem(300); 
-  height: getRem(225); 
-}
-
 .advantage .entryPic_4 {
   filter: blur(getRem(20));
   margin-top: getRem(12);
@@ -362,47 +344,14 @@ body {
   height: auto;
 }
 
-.advantage .info_4 {
-  opacity: 1;
-  margin-top: getRem(29); 
-  max-width: getRem(226);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: getRem(22);
-  letter-spacing: 7.11;
-  color: #333333;
-  font-size: getRem(16);
-  font-weight: 400;
-}
-
 .advantage .entryPic_5 {
-  position: absolute;
-  top: 0;
-  left: getRem(0);
   width: 100%;
   height: auto;
   overflow: hidden;
+  box-shadow: 0px 10px 10px -5px gray;
 }
 
 .advantage .entryPic_6 {
-  position: absolute;
-  top: 0;
-  left: getRem(0);
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.advantage .entryPic_7 {
-  position: absolute;
-  top: 0;
-  left: getRem(0);
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.advantage .entryPic_8 {
   position: absolute;
   top: 0;
   left: getRem(0);
@@ -446,7 +395,6 @@ body {
 .experience .article {
   opacity: 1;
   width: getRem(397);
-  height: getRem(120);
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: getRem(40);
@@ -459,7 +407,8 @@ body {
 .experience .laptop{
   display: flex;
   position: absolute;
-  top: 0;
+  // top: 0;
+  bottom: - getRem(10);
   right: 0;
   align-items: flex-start;
   flex-direction: row;
@@ -476,18 +425,23 @@ body {
   height: 100%;
 }
 
-.experience .laptop .content{
+.experience .laptop .content-wrap{
   position: absolute;
-  top: getRem(50);
-  right: getRem(105);
-  width: getRem(712);
-  height: getRem(440);
+  bottom: getRem(45);
+  right: getRem(113);
+  width: getRem(690);
+  height: getRem(450);
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
 }
 
 .experience .phone{
   display: flex;
   position: absolute;
-  top: getRem(95);
+  // top: getRem(95);
+  bottom: 0;
   left: getRem(504);
   align-items: center;
   flex-direction: row;
@@ -500,14 +454,20 @@ body {
   position: absolute;
   top: getRem(0);
   left: getRem(0);
-  width: getRem(210);
-  height: getRem(432);
+  // width: getRem(210);
+  // height: getRem(432);
+  height: getRem(442);
 }
 
-.experience .itemLong {
+.experience .itemLong-wrap {
   position: relative;
   width: getRem(190);
   height: getRem(411);
+  overflow: hidden;
+}
+.experience .itemLong {
+  width: 100%;
+  height: 100%;
 }
 
 .selected {
@@ -751,7 +711,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  width: getRem(1920);
+  width: 100%;
   height: getRem(1000);
 }
 
@@ -941,7 +901,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  width: getRem(1920);
+  width: 100%;
   height: getRem(1080);
 }
 
@@ -950,13 +910,13 @@ body {
   position: relative;
   align-items: flex-start;
   flex-direction: column;
-  width: 20rem;
+  width: 100%;
   height: getRem(1080);
 }
 
 .tech-advantage .layer {
   position: relative;
-  width: getRem(1920);
+  width: 100%;
   height: getRem(1080);
 }
 
@@ -1144,7 +1104,6 @@ body {
 .tech-advantage .article {
   margin-top: getRem(14);
   width: getRem(252);
-  height: getRem(130);
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: getRem(26);
@@ -1186,7 +1145,6 @@ body {
   opacity: 1;
   margin-top: getRem(14);
   width: getRem(252);
-  height: getRem(130);
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: getRem(26);
@@ -1208,7 +1166,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  width: 20rem;
+  width: 100%;
   height: getRem(1280);
 }
 .service-advantage .box {
@@ -1216,14 +1174,14 @@ body {
   position: relative;
   align-items: center;
   flex-direction: column;
-  width: 20rem;
+  width: 100%;
   height: getRem(1280);
 }
 .service-advantage .layer {
   position: absolute;
   top: getRem(0);
   left: getRem(0);
-  width: 20rem;
+  width: 100%;
   height: getRem(1280);
 }
 .service-advantage .hd {
@@ -1271,6 +1229,8 @@ body {
 .service-advantage .group_2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 .service-advantage .container {
   display: flex;
@@ -1412,23 +1372,13 @@ body {
   font-size: getRem(16);
   font-weight: 400;
 }
-.service-advantage .info_3 {
-  opacity: 1;
-  max-width: getRem(330);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: getRem(30);
-  color: #ffffff;
-  font-size: getRem(16);
-  font-weight: 400;
-}
 .service-advantage .group {
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-direction: column;
   margin-top: getRem(10);
-  margin-left: getRem(144);
+  // margin-left: getRem(144);
   width: getRem(321);
   height: getRem(187);
 }
@@ -1459,7 +1409,8 @@ body {
   position: relative;
   opacity: 1;
   margin-top: getRem(20);
-  width: getRem(304);
+  // width: getRem(304);
+  width: 102%;
   height: getRem(60);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1490,6 +1441,8 @@ body {
   font-weight: 400;
 }
 .service-advantage .block_5 {
+  width: 100%;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   margin-top: getRem(61);
@@ -1576,7 +1529,6 @@ body {
   position: relative;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: getRem(145);
   width: getRem(320);
   height: getRem(178);
 }
@@ -1610,7 +1562,6 @@ body {
   width: getRem(320);
   height: getRem(60);
   overflow: hidden;
-  text-overflow: ellipsis;
   line-height: getRem(30);
   color: #ffffff;
   font-size: getRem(16);
@@ -1632,7 +1583,6 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: getRem(7);
-  margin-left: getRem(154);
   height: getRem(172);
 }
 .service-advantage .container_4 {
@@ -1813,6 +1763,7 @@ body {
     font-family: FZLTXHK--GBK1-0, Lantinghei SC;
     font-size: getRem(24);
     font-weight: 300;
+    letter-spacing: 12px;
   }
   .brand .submain {
     box-sizing: border-box;
@@ -1864,7 +1815,7 @@ body {
   .brand .desc_3 {
     opacity: 1;
     margin-top: getRem(19);
-    width: getRem(84);
+    width: 100%;
     height: getRem(40);
     overflow: hidden;
     text-align: center;
@@ -1917,15 +1868,12 @@ body {
   .brand .smallPic {
     width: getRem(100);
     height: getRem(103);
+    margin-bottom: getRem(19);
   }
   .brand .bundesligaBayern {
-    opacity: 1;
-    margin-top: getRem(19);
-    margin-left: getRem(31);
-    max-width: getRem(70);
-    overflow: hidden;
+    display: block;
+    width: 100%;
     text-align: center;
-    text-overflow: ellipsis;
     line-height: getRem(20);
     color: #333333;
     font-size: getRem(14);
@@ -1957,9 +1905,7 @@ body {
     height: getRem(103);
   }
   .brand .desc_4 {
-    opacity: 1;
     margin-top: getRem(19);
-    width: getRem(84);
     height: getRem(40);
     overflow: hidden;
     text-align: center;
@@ -1974,16 +1920,15 @@ body {
     align-items: flex-start;
     flex-direction: column;
     height: getRem(162);
+    width: getRem(100);
   }
   .brand .pic_2 {
     width: getRem(102);
     height: getRem(103);
   }
   .brand .desc_5 {
-    opacity: 1;
+    display: inline-block;
     margin-top: getRem(19);
-    margin-left: getRem(13);
-    width: getRem(84);
     height: getRem(40);
     overflow: hidden;
     text-align: center;
@@ -1995,20 +1940,21 @@ body {
   }
   .brand .container_2 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     height: getRem(162);
+    width: getRem(100);
   }
   .brand .img_2 {
     width: getRem(102);
     height: getRem(103);
   }
   .brand .info_2 {
-    opacity: 1;
     margin-top: getRem(19);
-    margin-left: getRem(19);
+    display: inline-block;
     max-width: getRem(83);
     overflow: hidden;
+    width: 100%;
     text-align: center;
     text-overflow: ellipsis;
     line-height: getRem(20);
@@ -2017,11 +1963,9 @@ body {
     font-weight: 400;
   }
   .brand .info_3 {
-    opacity: 1;
-    margin-left: getRem(12);
-    max-width: getRem(90);
     overflow: hidden;
     text-align: center;
+    display: inline-block;
     text-overflow: ellipsis;
     line-height: getRem(20);
     color: #333333;
@@ -2030,19 +1974,18 @@ body {
   }
   .brand .outer_3 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     height: getRem(162);
+    width: getRem(140);
   }
   .brand .smallItem_2 {
     width: getRem(102);
     height: getRem(104);
   }
   .brand .desc_6 {
-    opacity: 1;
     margin-top: getRem(18);
-    margin-left: getRem(13);
-    width: getRem(84);
+    width: 100%;
     height: getRem(40);
     overflow: hidden;
     text-align: center;
@@ -2054,9 +1997,10 @@ body {
   }
   .brand .block_3 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     height: getRem(162);
+    width: getRem(100);
   }
   .brand .smallPic_2 {
     width: getRem(100);
@@ -2081,8 +2025,8 @@ body {
     font-weight: 400;
   }
   .brand .info_4 {
-    opacity: 1;
-    margin-left: getRem(3);
+    display: block;
+    width: getRem(115);
     text-align: center;
     line-height: getRem(20);
     color: #333333;
@@ -2131,6 +2075,15 @@ body {
     margin-top: getRem(24);
     width: getRem(416);
     height: getRem(323);
+
+    font-family: FZLTXHK--GBK1-0;
+    font-size: getRem(16);
+    color: #333333;
+    letter-spacing: 0;
+    line-height: getRem(30);
+    div:first-child{
+      margin-bottom: getRem(10);
+    }
   }
   .brand .bannerWrap {
     display: flex;
@@ -2392,10 +2345,21 @@ body {
   flex-direction: row;
   justify-content: center;
   background-color: #6a6a6a;
-  width: getRem(1920);
+  width: 100%;
   height: getRem(760);
+  position: relative;
+  .back{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
 }
 .contact .box {
+  position: relative;
+  z-index: 99;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -2411,10 +2375,14 @@ body {
   margin-top: getRem(42);
   height: getRem(449);
 }
-.contact .color {
-  background-color: #ffffff;
+.contact .desc{
   width: getRem(523);
   height: getRem(190);
+  font-family: FZLTXHK--GBK1-0;
+  font-size: getRem(16);
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: getRem(38);
 }
 .contact .container_2 {
   display: flex;
@@ -2433,12 +2401,12 @@ body {
   width: getRem(273);
   height: getRem(39);
 }
-.contact .colorDiv {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
+.contact .qq{
+  // display: flex;
+  // align-items: flex-start;
+  // flex-direction: row;
   margin-top: getRem(3);
-  background-color: #ffffff;
+  // background-color: #ffffff;
   width: getRem(36);
   height: getRem(36);
 }
@@ -2522,11 +2490,7 @@ body {
   flex-direction: row;
   height: getRem(36);
 }
-.contact .color_2 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  background-color: #ffffff;
+.contact .telegram-icon{
   width: getRem(36);
   height: getRem(36);
 }
@@ -2565,7 +2529,7 @@ body {
   width: getRem(345);
   height: getRem(36);
 }
-.contact .tonghangzhengpingtaiguanli {
+.contact .email-icon{
   width: getRem(36);
   height: getRem(36);
 }
@@ -2633,6 +2597,8 @@ body {
   width: getRem(453);
 }
 .contact .bg {
+  padding: 0;
+  padding-left: getRem(21);
   width: getRem(450);
   height: getRem(60);
 }
@@ -2667,7 +2633,9 @@ body {
 }
 .contact .actionBg {
   width: getRem(450);
-  height: getRem(140);
+  height: getRem(110);
+  padding-left: getRem(20);
+  padding-top: getRem(20);
 }
 .contact .submitNowWrap {
   box-sizing: border-box;
@@ -2917,4 +2885,36 @@ body {
   font-size: getRem(16);
   font-weight: 400;
   display: none;
+}
+input:-ms-input-placeholder {
+  color: #C8C8C8;
+}/* Internet Explorer 10+ */
+
+input::-webkit-input-placeholder {
+  color: #C8C8C8;
+}/* WebKit browsers */
+
+input::-moz-placeholder {
+  color: #C8C8C8;
+}/* Mozilla Firefox 4 to 18 */
+
+input:-moz-placeholder {
+  color: #C8C8C8;
+}/* Mozilla Firefox 19+ */
+
+textarea::-webkit-input-placeholder {
+  color: #C8C8C8;
+}/* WebKit browsers */
+
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #C8C8C8;
+}
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #C8C8C8;
+}
+textarea::-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #C8C8C8;
 }

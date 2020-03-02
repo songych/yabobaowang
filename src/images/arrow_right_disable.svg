@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>arrow_right_disable</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板复制-2" transform="translate(-313.000000, -2479.000000)">
+            <g id="arrow_right_disable" transform="translate(339.000000, 2505.000000) scale(-1, 1) translate(-339.000000, -2505.000000) translate(314.000000, 2480.000000)">
+                <circle id="椭圆形" stroke="#DEDEDE" cx="25" cy="25" r="25"></circle>
+                <path d="M15.9852814,25 L37,25 L37,26 L15.8431458,26 L21.7781746,31.9350288 L21.0710678,32.6421356 L14,25.5710678 L14.7071068,24.863961 L21.0710678,18.5 L21.7781746,19.2071068 L15.9852814,25 Z" id="形状结合" fill="#DEDEDE"></path>
+            </g>
+        </g>
+    </g>
+</svg>
