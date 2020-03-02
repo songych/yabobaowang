@@ -8,10 +8,12 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="stylesheet" href="./css/swiper.min.css" />
+  <audio id="audio" src="images/website_bgm.mp3" hidden="false" autoplay="autoplay" loop="true"></audio>
 </head>
 
 <body>
   <script src="js/rem.js"></script>
+  <!-- <EMBED src="images/website_bgm.mp3" autostart="true" loop="true" hidden="false">  -->
   <div class="banner">
     <div class="layerWrap">
       <video class="video" autoplay loop muted>
@@ -64,10 +66,15 @@
           </span>
         </div>
       </div>
-      <img class="collapseIcon"
+      <div class="collapseIcon" id="collapseIcon">
+        <div class="collapseIcon-item"></div>
+        <div class="collapseIcon-item"></div>
+        <div class="collapseIcon-item"></div>
+      </div>
+      <!-- <img class="collapseIcon"
         src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/730c85e05a9c11ea93dac5a4a7a19797.png"
         data-src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/730c85e05a9c11ea93dac5a4a7a19797.png"
-        alt="collapseIcon" />
+        alt="collapseIcon" /> -->
     </div>
   </div>
   <div class="advantage" id="advantage">

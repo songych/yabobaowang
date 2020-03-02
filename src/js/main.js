@@ -44,8 +44,17 @@ $('#nav-outer .nav').on('click', (e)=>{
         $('#nav-outer .nav span').removeClass('active');
         $target.addClass('active');
         const hash = $target.data('hash');
-        alert(hash);
         window.location.href = '#'+hash;
+    }
+});
+
+$('#collapseIcon').click((e)=>{
+    const $target = $(e.currentTarget);
+    $target.toggleClass('active');
+    if($target.hasClass('active')) {
+        $('#audio')[0].play();
+    }else {
+        $('#audio')[0].pause();
     }
 });
 

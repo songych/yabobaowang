@@ -9,6 +9,28 @@ body {
   overflow-x: hidden;
 }
 
+@-webkit-keyframes wave {
+  0% {
+    height: 4px
+  }
+  50% {
+    height: 20px
+  }
+  100% {
+    height: 12px
+  }
+}
+@keyframes wave {
+	0% {
+    height: 4px
+  }
+  50% {
+    height: 20px
+  }
+  100% {
+    height: 12px
+  }
+}
 .banner {
   display: flex;
   align-items: flex-start;
@@ -146,11 +168,42 @@ body {
 }
 
 .banner .collapseIcon {
+  cursor: pointer;
   position: absolute;
   right: getRem(100);
   bottom: getRem(57);
-  width: getRem(14);
-  height: getRem(12);
+  display: flex;
+  align-items: flex-end;
+  width: getRem(34);
+  height: getRem(32);
+  .collapseIcon-item{
+    width: 2px;
+    height: getRem(16);
+    bottom:0;
+    background: #E0C9B2;
+    &:nth-of-type(2) {
+      margin-left: getRem(4);
+    }
+    &:nth-of-type(3) {
+      margin-left: getRem(4);
+    }
+  }
+  &.active{
+    .collapseIcon-item{
+      &:nth-of-type(1) {
+        -webkit-animation:wave 0.66s linear infinite;
+        animation:wave 0.66s linear infinite;
+      }
+      &:nth-of-type(2) {
+        -webkit-animation:wave 0.8s linear infinite;
+        animation:wave 0.8s linear infinite;
+      }
+      &:nth-of-type(3) {
+        -webkit-animation:wave 0.7s linear infinite;
+        animation:wave 0.7s linear infinite;
+      }
+    }
+  }
 }
 
 .advantage {
