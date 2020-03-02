@@ -2800,8 +2800,18 @@ body {
 }
 .footer .main {
   margin-top: getRem(57);
-  width: getRem(810);
+  width: getRem(1100);
   height: getRem(36);
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: getRem(12);
+  color: #999999;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: getRem(18);
+  div:first-child{
+    margin-bottom: getRem(5);
+  }
 }
 .footer .ft {
   opacity: 1;

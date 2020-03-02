@@ -3950,8 +3950,19 @@ body {
 
 .footer .main {
   margin-top: 0.59375rem;
-  width: 8.4375rem;
+  width: 11.45833rem;
   height: 0.375rem;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 0.125rem;
+  color: #999999;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.1875rem;
+}
+
+.footer .main div:first-child {
+  margin-bottom: 0.05208rem;
 }
 
 .footer .ft {
