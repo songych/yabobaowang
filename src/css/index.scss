@@ -585,6 +585,10 @@ body {
     .content-left-wrap{
       opacity: 1;
       top: getRem(90);
+      .title{
+        display: block;
+        height: getRem(84);
+      }
     }
   }
 }
@@ -2178,6 +2182,18 @@ body {
   height: getRem(299);
   margin: getRem(130) auto getRem(175);
 }
+.business-process .col{
+  position: relative;
+  .num{
+    font-family: Helvetica;
+    font-size: getRem(40);
+    color: #000000;
+    letter-spacing: 0;
+    position: absolute;
+    top: getRem(40);
+    left: getRem(42);
+  }
+} 
 .business-process .hd {
   display: flex;
   align-items: center;
@@ -2676,7 +2692,7 @@ body {
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
-  width: getRem(909);
+  width: getRem(1200);
   height: getRem(68);
 }
 .footer .outer {
@@ -2696,8 +2712,8 @@ body {
   height: getRem(50);
 }
 .footer .logo {
-  width: getRem(93);
-  height: getRem(25);
+  width: 100%;
+  // height: getRem(25);
 }
 .footer .info {
   opacity: 1;
@@ -2727,13 +2743,12 @@ body {
   height: getRem(50);
 }
 .footer .logo_2 {
-  width: getRem(156);
-  height: getRem(32);
+  width: 100%;
+  // width: getRem(156);
+  // height: getRem(32);
 }
 .footer .info_2 {
-  opacity: 1;
   margin-top: getRem(1);
-  max-width: getRem(170);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2757,13 +2772,13 @@ body {
   height: getRem(50);
 }
 .footer .actionBg {
-  width: getRem(180);
-  height: getRem(41);
+  width: 100%;
+  // width: getRem(180);
+  // height: getRem(41);
 }
 .footer .info_3 {
   white-space: nowrap;
   margin-top: getRem(1);
-  max-width: getRem(165);
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: getRem(17);
@@ -2783,12 +2798,14 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-left: getRem(2);
-  width: getRem(180);
+  // width: getRem(180);
+  width: 100%;
   height: getRem(50);
 }
 .footer .pic {
-  width: getRem(45);
-  height: getRem(45);
+  width: 80%;
+  // width: getRem(45);
+  // height: getRem(45);
 }
 .footer .info_4 {
   opacity: 1;

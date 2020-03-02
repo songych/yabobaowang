@@ -753,6 +753,11 @@ body {
   top: 0.9375rem;
 }
 
+.selected .main.swiper-slide-active .content-left-wrap .title {
+  display: block;
+  height: 0.875rem;
+}
+
 .selected .layerWrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2984,6 +2989,20 @@ body {
   margin: 1.35417rem auto 1.82292rem;
 }
 
+.business-process .col {
+  position: relative;
+}
+
+.business-process .col .num {
+  font-family: Helvetica;
+  font-size: 0.41667rem;
+  color: #000000;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0.41667rem;
+  left: 0.4375rem;
+}
+
 .business-process .hd {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3747,7 +3766,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 9.46875rem;
+  width: 12.5rem;
   height: 0.70833rem;
 }
 
@@ -3786,8 +3805,7 @@ body {
 }
 
 .footer .logo {
-  width: 0.96875rem;
-  height: 0.26042rem;
+  width: 100%;
 }
 
 .footer .info {
@@ -3837,14 +3855,11 @@ body {
 }
 
 .footer .logo_2 {
-  width: 1.625rem;
-  height: 0.33333rem;
+  width: 100%;
 }
 
 .footer .info_2 {
-  opacity: 1;
   margin-top: 0.01042rem;
-  max-width: 1.77083rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -3885,14 +3900,12 @@ body {
 }
 
 .footer .actionBg {
-  width: 1.875rem;
-  height: 0.42708rem;
+  width: 100%;
 }
 
 .footer .info_3 {
   white-space: nowrap;
   margin-top: 0.01042rem;
-  max-width: 1.71875rem;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 0.17708rem;
@@ -3930,13 +3943,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 0.02083rem;
-  width: 1.875rem;
+  width: 100%;
   height: 0.52083rem;
 }
 
 .footer .pic {
-  width: 0.46875rem;
-  height: 0.46875rem;
+  width: 80%;
 }
 
 .footer .info_4 {
